@@ -84,12 +84,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", default=DEFAULT_YOLO_MODEL, help="YOLO model path.")
     parser.add_argument(
         "--video",
-        default=r"D:\\LLM\nano-vllm-learn-main\zed_left_videos\zed_left_20260616_151122.mp4",
+        default=r".mp4",
         help="Optional offline video. If omitted, ZED2i is used.",
     )
     parser.add_argument(
         "--workstations-config",
-        default=r"D:\\LLM\nano-vllm-learn-main\seats_config.json",
+        default=r"seats_config.json",
         help="ROI config JSON path. The first ROI is used by default.",
     )
     parser.add_argument("--workstation-id", default=None, help="Target workstation id.")
@@ -213,7 +213,7 @@ def parse_args() -> argparse.Namespace:
         help="Knowledge base directory for RAG.",
     )
     parser.add_argument(
-        "--rag-model", default=r"D:\\LLM\models\bge-small-zh-v1.5",
+        "--rag-model", default=r"bge-small-zh-v1.5",
         help="Sentence-Transformer model for RAG embeddings.",
     )
     parser.add_argument(
