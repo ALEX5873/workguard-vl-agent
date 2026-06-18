@@ -41,7 +41,6 @@ workguard-vl-agent/
     schedule.json              # Example schedule/activity log
     policies.md                # Example policy knowledge base
   docs/
-    INTERVIEW_NOTES.md         # Interview review notes
 ```
 
 ## Requirements
