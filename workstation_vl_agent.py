@@ -59,7 +59,7 @@ from llm_client import (
 )
 
 
-DEFAULT_YOLO_MODEL = r"D:\\LLM\nano-vllm-learn-main\yolo11n.engine"
+DEFAULT_YOLO_MODEL = r"yolo11n.engine"
 DEFAULT_VL_MODEL = "qwen3.5:9b"
 PERSON_CLASS = "person"
 ACTIVITY_LABELS = [
