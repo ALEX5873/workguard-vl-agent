@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-15",
+  "schedules": [
+    {
+      "employee_id": "E001",
+      "name": "张三",
+      "shift": "白班",
+      "work_hours": "09:00-22:00",
+      "today_status": "在岗",
+      "check_in": "08:55",
+      "check_out": null
+    },
+    {
+      "employee_id": "E002",
+      "name": "李四",
+      "shift": "白班",
+      "work_hours": "09:00-22:00",
+      "today_status": "在岗",
+      "check_in": "08:55",
+      "check_out": null
+    }
+  ],
+  "activity_log": [
+    {
+      "employee_id": "E001",
+      "timestamp": "2026-06-15T09:30:00",
+      "workstation_id": "A1",
+      "activity": "工作",
+      "duration_min": 45
+    },
+    {
+      "employee_id": "E001",
+      "timestamp": "2026-06-15T10:15:00",
+      "workstation_id": "A1",
+      "activity": "喝水",
+      "duration_min": 5
+    },
+    {
+      "employee_id": "E001",
+      "timestamp": "2026-06-15T10:20:00",
+      "workstation_id": "A1",
+      "activity": "工作",
+      "duration_min": 90
+    },
+    {
+      "employee_id": "E001",
+      "timestamp": "2026-06-15T11:50:00",
+      "workstation_id": "A1",
+      "activity": "玩手机",
+      "duration_min": 15
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "D:\\LLM\\nano-vllm-learn-main\\zed_left_videos\\zed_left_20260616_151122.mp4",
+  "seats": [
+    {
+      "seat_id": "A1",
+      "region_xyxy": [
+        170,
+        220,
+        632,
+        720
+      ]
+    },
+    {
+      "seat_id": "A2",
+      "region_xyxy": [
+        611,
+        110,
+        850,
+        393
+      ]
+    }
+  ]
+}

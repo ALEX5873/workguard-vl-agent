@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "employee_id": "E001",
+      "name": "张三",
+      "department": "研发部",
+      "position": "算法工程师",
+      "workstation_id": "A1",
+      "phone": "138****1234",
+      "manager": "王经理"
+    },
+    {
+      "employee_id": "E002",
+      "name": "李四",
+      "department": "研发部",
+      "position": "前端开发工程师",
+      "workstation_id": "A2",
+      "phone": "139****5678",
+      "manager": "王经理"
+    }
+  ]
+}
